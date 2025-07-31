@@ -1,15 +1,23 @@
-Here is a comprehensive README file structure for your GitHub repository, drawing upon the provided sources. This structure aims to be clear, insightful, and "beautiful" by highlighting key aspects of your Blinkit Data Analysis project.
-
-***
 
 # 📊 Blinkit Data Analysis: A Comprehensive Sales Performance Study (2025 Edition)
 
 ## Table of Contents
-*   
+*   [Introduction](#introduction)
+*   [Problem Statement & Business Objectives](#problem-statement--business-objectives)
+*   [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
+*   [Granular Analysis & Chart Requirements](#granular-analysis--chart-requirements)
+*   [Data Source](#data-source)
+*   [Tools & Technologies Used](#tools--technologies-used)
+*   [Project Workflow & Methodology](#project-workflow--methodology)
+*   [Data Cleaning](#data-cleaning)
 *   [Dashboard & Visualizations](#dashboard--visualizations)
     *   [Power BI Dashboard](#power-bi-dashboard)
     *   [Excel Dashboard](#excel-dashboard)
-    
+*   [Key Insights & Business Recommendations](#key-insights--business-recommendations)
+*   [How to Run/Explore the Project](#how-to-runexplore-the-project)
+*   [Contact & Contributions](#contact--contributions)
+
+---
 
 ## Introduction
 This project presents a **comprehensive end-to-end data analysis of Blinkit store sales data**, leveraging a suite of powerful tools: **SQL, Power BI, Python, and Excel**. The goal is to derive meaningful insights into Blinkit's sales performance, customer satisfaction, inventory, and distribution, ultimately providing actionable intelligence to the business. This analysis is designed to be a valuable learning experience for data analysts and SQL/Python/Excel learners alike, serving as a robust portfolio project.
@@ -46,14 +54,6 @@ To deep dive into the data and identify root causes or specific performance area
     *   *Chart Type:* **Funnel Chart** or Bar Chart.
 *   **All Metrics by Outlet Type:** Visualize various metrics (total sales, average sales, number of items, average ratings) for different outlet types (e.g., Supermarket Type 1, Grocery Store).
     *   *Chart Type:* **Matrix Card** (in Power BI/Excel) or grouped bar charts (in Python/SQL).
-## Table of Contents
-*   
-*   [Dashboard & Visualizations]
-*   PowerBI DashBoard
-    *   [<img width="1918" height="848" alt="DashBoard_PowerBI" src="https://github.com/user-attachments/assets/f772d94c-e6b5-486e-bef3-f5b99e969ea2" />
-]    Excel DashBoard
-    *   [<img width="1899" height="866" alt="Blinkit_EXCEL_Dashboard" src="https://github.com/user-attachments/assets/33ae705f-34b0-4b45-9f04-55fd6330d456" />
-]
 
 ## Data Source
 The project utilizes a dataset of Blinkit store sales, available as a **CSV/Excel file**. The dataset contains approximately **8,523 rows and 12 columns**, with each row representing a single product/order.
@@ -125,9 +125,9 @@ The Power BI dashboard provides a highly interactive experience with diverse fil
 *   **Chart Types:** Utilizes various charts for granular insights: Donut Charts (Fat Content, Outlet Size), Bar Charts (Item Type, Fat by Outlet), Line Charts (Outlet Establishment), and a Matrix Card (Outlet Type).
 *   **Aesthetics:** Designed with Blinkit's brand colors (yellow and green) for visual consistency and appeal.
 
-**[SPACE FOR POWER BI DASHBOARD SCREENSHOT 1]**
+**<img width="1918" height="848" alt="DashBoard_PowerBI" src="https://github.com/user-attachments/assets/fae4f493-43ae-4bdc-a6b0-69652dc97c55" />
+**
 
-**[SPACE FOR POWER BI DASHBOARD SCREENSHOT 2]**
 
 ### Excel Dashboard
 The Excel dashboard is also designed for interactivity and clear presentation of key business metrics.
@@ -141,9 +141,8 @@ The Excel dashboard is also designed for interactivity and clear presentation of
 *   **Navigation:** Includes "Home" and "Data" buttons to easily navigate between the dashboard, pivot table sheets, and raw data.
 *   **Dynamic Updates:** All charts and KPIs update automatically based on slicer selections.
 
-**[SPACE FOR EXCEL DASHBOARD SCREENSHOT 1]**
-
-**[SPACE FOR EXCEL DASHBOARD SCREENSHOT 2]**
+**<img width="1899" height="866" alt="Blinkit_EXCEL_Dashboard" src="https://github.com/user-attachments/assets/87aaae37-f8aa-49a2-9d2d-94ad9a4c7034" />
+**
 
 ### Python Exploratory Data Analysis (EDA) Charts
 The Python part of the project focuses on programmatic data analysis and visualization through Jupyter Notebook, offering deeper insights through code.
@@ -158,9 +157,7 @@ The Python part of the project focuses on programmatic data analysis and visuali
     *   **Horizontal Bar Chart (Funnel representation):** Sales by Outlet Location.
 *   **Output Readability:** Includes comments and markdown cells to explain each section of the code and its purpose, making the analysis easy to follow.
 
-**[SPACE FOR PYTHON EDA CHART SCREENSHOT 1]**
 
-**[SPACE FOR PYTHON EDA CHART SCREENSHOT 2]**
 
 ### SQL Query Output & Portfolio Document
 The SQL component focuses on writing efficient queries to extract specific data for business requirements and KPIs.
@@ -170,10 +167,6 @@ The SQL component focuses on writing efficient queries to extract specific data 
 *   **Data Cleaning:** SQL `UPDATE` statements with `CASE` are used to perform in-database data cleaning for inconsistencies.
 *   **Output Formatting:** Utilizes `CAST` and `CONCAT` (suggested homework) functions to format numerical outputs (e.g., in millions, with decimal points, currency symbols).
 *   **Portfolio Document:** The project emphasizes the importance of documenting queries and their corresponding outputs as a portfolio artifact, which is crucial for real-time industry practice and knowledge transfer.
-
-**[SPACE FOR SQL QUERY OUTPUT SCREENSHOT 1]**
-
-**[SPACE FOR SQL QUERY OUTPUT SCREENSHOT 2]**
 
 ## Key Insights & Business Recommendations
 Through this multi-tool analysis, several key insights can be derived, leading to actionable business recommendations:
@@ -202,3 +195,10 @@ To explore this project locally, follow these general steps:
 Feel free to reach out for any questions, suggestions, or collaborations. Your feedback is highly appreciated!
 
 ---
+
+
+
+
+
+
+
